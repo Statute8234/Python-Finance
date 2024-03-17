@@ -6,7 +6,7 @@ The code performs a linear regression analysis on stock data using the yfinance 
 - [About](#about)
 - [Features](#features)
 - [Imports](#Imports)
-- [Rating: 7/10](#Rating)
+- [Rating: 8/10](#Rating)
 
 # About
 
@@ -22,4 +22,6 @@ matplotlib.pyplot, numpy, datetime, yfinance, pandas, sklearn.model_selection, s
 
 # Rating
 
-The text effectively demonstrates Python libraries for regression analysis and visualization, but there's room for improvement in code organization, such as breaking down code into functions for better readability and reusability, adding comments for each section's purpose, and incorporating advanced analysis techniques or alternative models for comparison.
+For its functionality, readability, and use of libraries such as Matplotlib, NumPy, Pandas, and scikit-learn. It performs linear regression on stock data using Yahoo Finance, evaluates performance metrics like MSE, MAE, and R-squared, and visualizes predictions against actual values. The code is well-structured and easy to follow, separating tasks into logical sections for better understanding and maintenance.
+The code randomly selects a symbol from a list of symbols, adding variability and making it suitable for testing with different stocks. However, there are some cons, such as misspelled variable names and a need for a truly random approach or additional randomness. The visualization is clear, but could be enhanced by adding more descriptive labels to the axes.
+Error handling is lacking, and the use of magic numbers as start and end dates is not recommended. To improve, the variable names should be corrected, random selection should be considered, and the visualization should be enhanced by adding more descriptive labels to the axes. Error handling mechanisms should be implemented, and constants or variables should be defined for start and end dates instead of using magic numbers directly in the code.
