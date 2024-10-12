@@ -1,6 +1,14 @@
 # Python-Finance
-
 The code performs a linear regression analysis on stock data using the yfinance library, importing necessary libraries, selecting a stock symbol, downloading historical data, preparing data for analysis, splitting data into training and testing sets, fitting a linear regression model, making predictions, calculating metrics, and visualizing actual and predicted values using a scatter plot.
+
+[![Static Badge](https://img.shields.io/badge/matplotlib-blue)](https://pypi.org/project/matplotlib/)
+[![Static Badge](https://img.shields.io/badge/numpy-purple)](https://pypi.org/project/numpy/)
+[![Static Badge](https://img.shields.io/badge/datetime-yellow)](https://pypi.org/project/datetime/)
+[![Static Badge](https://img.shields.io/badge/yfinance-red)](https://pypi.org/project/yfinance/)
+[![Static Badge](https://img.shields.io/badge/pandas-yellow)](https://pypi.org/project/pandas/)
+[![Static Badge](https://img.shields.io/badge/sklearn-red)](https://pypi.org/project/sklearn/)
+[![Static Badge](https://img.shields.io/badge/random-orange)](https://pypi.org/project/random/)
+
 ## Table of Contents
 
 - [About](#about)
